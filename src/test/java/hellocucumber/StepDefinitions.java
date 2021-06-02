@@ -23,8 +23,8 @@ public class StepDefinitions extends BaseUtil {
         this.base = base;
     }
 
-    @Given("^I navigate to the login page$")
-    public void I_navigate_to_the_login_page() throws Throwable {
+    @Given("User navigate to the app")
+    public void user_navigate_to_the_app() throws Throwable {
         base.driver.navigate().to("https://www.ryanair.com/gb/en");
     }
 
